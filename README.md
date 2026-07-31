@@ -65,6 +65,3 @@ On Windows, use `gradlew.bat assembleDebug`.
 - `app/src/main/res`: Android resources and launcher assets
 - `gradle/libs.versions.toml`: dependency versions
 
-## License
-
-No license has been selected yet. Add a license before accepting external contributions or redistributing the project.
