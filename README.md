@@ -2,6 +2,26 @@
 
 An Android weather application built with Kotlin, Jetpack Compose, Retrofit, and WeatherAPI.com.
 
+## Screenshots
+
+### Weather overview
+
+View the current temperature, condition, location, humidity, wind speed, UV index, precipitation, local time, and date.
+
+![Weather overview](docs/screenshots/weather-screen.jpg)
+
+### Activity suggestions
+
+Get weather-based activity recommendations with likelihood indicators, including indoor gym, yoga, and basketball suggestions.
+
+![Activity suggestions](docs/screenshots/activity-suggestions.jpg)
+
+### Location search and favorites
+
+Search for locations and mark a location as a favorite for quick access.
+
+![Location search and favorites](docs/screenshots/location-search-favorites.jpg)
+
 ## Requirements
 
 - Android Studio Koala or newer
