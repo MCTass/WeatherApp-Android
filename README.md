@@ -2,6 +2,8 @@
 
 An Android weather application built with Kotlin, Jetpack Compose, Retrofit, and WeatherAPI.com.
 
+This project was developed in Q1 2024 as part of an Android course.
+
 ## Screenshots
 
 ### Weather overview
@@ -12,7 +14,20 @@ View the current temperature, condition, location, humidity, wind speed, UV inde
 
 ### Activity suggestions
 
-Get weather-based activity recommendations with likelihood indicators, including indoor gym, yoga, and basketball suggestions.
+Get weather-based activity recommendations with likelihood indicators. Suggestions are calculated from the current temperature, humidity, wind speed, precipitation, UV index, season, and local time, so the displayed activities change with the weather. The app currently supports:
+
+- Football
+- Swimming
+- Running
+- Cycling
+- Indoor gym
+- Yoga
+- Basketball
+- Picnic
+- Walking
+- Hiking
+- Golf
+- Fishing
 
 ![Activity suggestions](docs/screenshots/activity-suggestions.jpg)
 
@@ -64,4 +79,16 @@ On Windows, use `gradlew.bat assembleDebug`.
 - `app/src/main/java`: application, UI, view model, and Retrofit API code
 - `app/src/main/res`: Android resources and launcher assets
 - `gradle/libs.versions.toml`: dependency versions
+
+## Future improvements
+
+- Add multi-day and hourly forecasts.
+- Improve activity recommendations with more detailed weather rules and user preferences.
+- Add persistent favorite locations and a favorites management screen.
+- Support automatic location detection with explicit user permission.
+- Add temperature-unit selection, including Celsius and Fahrenheit.
+- Improve accessibility, responsive layouts, and tablet support.
+- Add loading, empty, offline, and API-error states with retry actions.
+- Add automated unit and UI tests for weather parsing, suggestions, and search behavior.
+- Move production weather requests behind a backend so the API key is not shipped in the APK.
 
